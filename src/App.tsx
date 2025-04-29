@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router";
-import "./App.css";
 import Home from "./pages/Home";
 import Events from "./pages/Events";
 import JoinUs from "./pages/JoinUs";
 import Header from "./components/Header";
+import Clubs from "./pages/Clubs";
 
 function App() {
 	return (
@@ -13,6 +13,7 @@ function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/events" element={<Events />} />
 				<Route path="/joinUs" element={<JoinUs />} />
+				<Route path="/clubs" element={<Clubs />} />
 			</Routes>
 		</>
 	);
