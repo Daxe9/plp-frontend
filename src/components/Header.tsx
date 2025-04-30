@@ -1,23 +1,9 @@
 import { Link } from "react-router";
 import logo from "../assets/images/logo.png";
+import data from "../services/data.service";
 
 function Header() {
 	// only for developing uses
-	const data = {
-		navbar: {
-			aboutUs: "关于我们",
-			home: "首页",
-			groups: "兴趣社团",
-			more: "更多",
-			instagram: "📸 Instagram",
-			rednote: "📕 小红书",
-			sponsor: "赞助商",
-			ourTeam: "我们的团队",
-			contactUS: "联系我们",
-			joinUs: "加入我们",
-			events: "活动",
-		},
-	};
 	return (
 		<>
 			<nav className="navbar is-transparent" role="navigation" aria-label="main navigation">
